@@ -1,5 +1,7 @@
 # Item_Demand_Forecasting
 
+![alt text](https://github.com/rasunag27/Item_demand_forecasting/blob/main/item_demand.JPG?raw=true)
+
 Item demand forecasting is the process of making estimations over future sales demand of item over a defined period, using historical data.
 
 ### Data description
@@ -13,7 +15,7 @@ To predict 3-month sales of each item by considering the aggregation of stores.
 
 ### Methodology
 
-* For the sales prediction, I have used Fbprophet model which is opensource and developed by Facebook. The basic working proceduce of model is explained below.
+* For the sales prediction, I have used Fbprophet model which is opensource and developed by Facebook. For more information check https://facebook.github.io/prophet/
 * Data is imported and basic data analysis is studied for any null values.
 * Data is explored by implementing rolling/moving average function for sales trend on items and date.
 * Sales aggregation for items is done to work towards the problem objective.
