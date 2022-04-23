@@ -51,7 +51,7 @@ for i in range(1, 51):
   items.append(str(i))
 
 
-df = pd.read_csv('/content/item_forecast.csv')
+df = pd.read_csv("item_forecast.csv")
 df1 = pd.pivot_table(df, values = "sales", index="date", columns = "item", aggfunc = np.sum)
 
 df1.columns = [ 'item_' + str(i) for i in range(1,len(df1.columns)+1)]
