@@ -11,7 +11,7 @@ Item demand forecasting is the process of making estimations over future sales d
 * There are 10 stores and each store contains 10 items for which sales value is provided.
 
 ### Objective
-To predict 3-month sales of each item by considering the aggregation of stores.
+To predict future sales of items by considering the 90 day sale.
 
 ### Methodology
 
